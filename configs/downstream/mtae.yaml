@@ -23,7 +23,7 @@ model:
   num_classes: 5
 
 dataset:
-  filename_col: FILE_NAME
+  filename_col: RELATIVE_FILE_PATH
   fs_col: SAMPLE_RATE
   label_col: LABEL
   label_dtype: long
